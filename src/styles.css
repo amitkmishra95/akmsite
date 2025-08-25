@@ -389,6 +389,14 @@ section h2 {
    Resume Section
    ========================================================================== */
 .resume {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: var(--accent-color);
+  box-sizing: border-box;
   background: var(--white);
   text-align: center;
 }
