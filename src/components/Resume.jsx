@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/assets/cv.pdf.pdf'; // Update with your resume path
+        link.href = '../public/assets/cv.pdf'; // Update with your resume path
         link.download = 'Amit_Kumar_Mishra_Resume.pdf';
         link.click();
     };
